@@ -193,7 +193,7 @@ export const ParamsProvider = ({ children }) => {
     const [mode, setmode] = useState(null);
     const [algo, setalgo] = useState([]);
     const [run, setrun] = useState(false);
-    const [grid, setgrid] = useState(getGrid(50, 25));
+    const [grid, setgrid] = useState(getGrid(60, 25));
     const [editing, seteditFlag] = useState(false);
     const [res, setres] = useState(false);
     const start = useRef({ x: 26, y: 12 });
